@@ -22,7 +22,6 @@ public class Part2 {
         while ((input = bufferedReader.readLine())!=null){
             splittedString = input.split("\\s|-");
             passwordsArrayList.add(splittedString);
-            System.out.println(input);
         }
 
         // count valid passwords appearances
@@ -35,7 +34,6 @@ public class Part2 {
             if (password.charAt(valueOne - 1) == passwordPolicy ^ password.charAt(valueTwo - 1) == passwordPolicy) {
                 countValidPasswords += 1;
             }
-//            System.out.println(passwordPolicy + " " + (valueOne-1) + "=" + password.charAt(valueOne-1) + " " + (valueTwo-1) + "=" + password.charAt(valueTwo-1) + " " +  password + "=" + countValidPasswords);
         }
 
         // return the answer
