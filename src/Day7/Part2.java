@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class Part2 {
     private static ArrayList<String[]> inputArrayList = new ArrayList<>();
-    private static ArrayList<String[]> bagsRules = new ArrayList<>();
     private static int bagsAmount;
 
     public static void main(String[] args) throws IOException {
@@ -18,13 +17,9 @@ public class Part2 {
         addBagsRules(myBagName);
         System.out.println(bagsAmount);
 
-        for (int i = 0; i < bagsRules.size(); i++) {
-            for (int j = 1; j < bagsRules.get(i).length; j++) {
-                System.out.println(bagsRules.get(i)[j]);
-            }
-        }
     }
 
+    // recursively find bags that should be in your bag and count them
     private static void addBagsRules(String bagName){
         String[] bagRule;
         for (int i = 0; i < inputArrayList.size(); i++) {
