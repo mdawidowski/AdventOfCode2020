@@ -8,7 +8,7 @@ import java.util.Set;
 public class Part1 {
     public static void main(String[] args) throws IOException {
         // load file
-        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("Day7PuzzleInput.txt")));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("src/Day7/Day7PuzzleInput.txt")));
 
         // initialize variables
         String input, bagColor;

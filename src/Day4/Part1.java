@@ -8,7 +8,7 @@ import java.util.Map;
 public class Part1 {
     public static void main(String[] args) throws IOException {
         // load file
-        FileReader fileReader = new FileReader(new File("Day4PuzzleInput.txt"));
+        FileReader fileReader = new FileReader(new File("src/Day4/Day4PuzzleInput.txt"));
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
         // initialize variables

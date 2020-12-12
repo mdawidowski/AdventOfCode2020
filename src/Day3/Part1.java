@@ -5,7 +5,7 @@ import java.io.*;
 public class Part1 {
     public static void main(String[] args) throws IOException {
         // load file
-        File file = new File("Day3PuzzleInput.txt");
+        File file = new File("src/Day3/Day3PuzzleInput.txt");
         FileReader fileReader = new FileReader(file);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 

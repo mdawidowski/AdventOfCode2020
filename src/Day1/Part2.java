@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Part2 {
     public static void main(String[] args) throws IOException {
         // load file
-        File file = new File("Day1PuzzleInput.txt");
+        File file = new File("src/Day1/Day1PuzzleInput.txt");
         FileReader fileReader = new FileReader(file);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 

@@ -107,7 +107,7 @@ public class Part2 {
 
     private static void takeCareOfFiles() throws IOException {
         // load file
-        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("Day8PuzzleInput.txt")));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("src/Day8/Day8PuzzleInput.txt")));
 
         // initialize variables
         String input;

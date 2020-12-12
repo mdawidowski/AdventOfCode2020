@@ -8,7 +8,7 @@ import java.util.Set;
 public class Part2 {
     public static void main(String[] args) throws IOException {
         // load file
-        File file = new File("Day6PuzzleInput.txt");
+        File file = new File("src/Day6/Day6PuzzleInput.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
 
         // initialize variables
