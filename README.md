@@ -11,4 +11,4 @@ My programs for solving AOC puzzles:
 #### [Day 6 - Custom Customs](https://github.com/mdawidowski/AdventOfCode2020/tree/master/src/Day6) 
 #### [Day 7 - Handy Haversacks](https://github.com/mdawidowski/AdventOfCode2020/tree/master/src/Day7) 
 #### [Day 8 - Handheld Halting](https://github.com/mdawidowski/AdventOfCode2020/tree/master/src/Day8) 
-
+#### [Day 9 - Encoding Error](https://github.com/mdawidowski/AdventOfCode2020/tree/master/src/Day9) 
